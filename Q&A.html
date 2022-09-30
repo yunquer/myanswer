@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="./Q&A.css" />
+    <meta charset="utf-8" />
+    <title>Q&A</title>
+  </head>
+  <body>
+    <h1>Q&A</h1>
+    <div id="content" class="postopen">
+      <p>这是问题</p>
+      <p>这是答案</p>
+    </div>
+    <script>
+      let con = document.getElementById("content");
+      con.style.display = "none";
+    </script>
+    <input type="text" id="button" class="thebutton" value="这是问题" />
+    <script>
+      button.onclick = function () {
+        con.style.display = "block";
+        document.getElementById("button").className = "hidden";
+      };
+    </script>
+    <script>
+      content.onclick = function () {
+        con.style.display = "none";
+        document.getElementById("button").className = "closed";
+      };
+    </script>
+
+    <div id="contenta" class="postopen">
+      <p>浙大最潮的学生组织是?</p>
+      <p>求是潮</p>
+    </div>
+    <script>
+      let cona = document.getElementById("contenta");
+      cona.style.display = "none";
+    </script>
+    <input
+      type="text"
+      id="buttona"
+      class="thebutton"
+      value="浙大最潮的学生组织是？"
+    />
+    <script>
+      buttona.onclick = function () {
+        cona.style.display = "block";
+        document.getElementById("buttona").className = "hidden";
+      };
+    </script>
+    <script>
+      contenta.onclick = function () {
+        cona.style.display = "none";
+        document.getElementById("buttona").className = "closed";
+      };
+    </script>
+
+    <div id="contentb" class="postopen">
+      <p>求是潮的办公室在哪里?</p>
+      <p>小剧场B217</p>
+    </div>
+    <script>
+      let conb = document.getElementById("contentb");
+      conb.style.display = "none";
+    </script>
+    <input
+      type="text"
+      id="buttonb"
+      class="thebutton"
+      value="求是潮的办公室在哪里？"
+    />
+    <script>
+      buttonb.onclick = function () {
+        conb.style.display = "block";
+        document.getElementById("buttonb").className = "hidden";
+      };
+    </script>
+    <script>
+      contentb.onclick = function () {
+        conb.style.display = "none";
+        document.getElementById("buttonb").className = "closed";
+      };
+    </script>
+  </body>
+</html>

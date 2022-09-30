@@ -1,0 +1,34 @@
+.h1{
+    color:rgb(7, 243, 243);
+    text-align: left;
+ }
+ .thebutton {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    color: #ffffff;
+    background-image: linear-gradient(rgb(18, 66, 240) 80%, #eee);
+    text-align: center;
+    font-weight:700;
+ }
+ .postopen {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    color: #000000;
+    background-image: linear-gradient(rgb(255, 255, 255) 80%, rgba(62, 93, 98, 0.44));
+    text-align: center;
+ }
+.hidden{
+        display:none  ;
+}
+.closed{
+  width: 100%;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    color: #ffffff;
+    background-image: linear-gradient(rgb(151, 151, 153) 80%, #eee);
+    text-align: center;
+    display :block ;
+    font-weight: 700;
+}
